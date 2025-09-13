@@ -56,3 +56,22 @@
     INSERT INTO personas  
       VALUES  
         ( DEFAULT, 'Álvarez', 'Fernando', 32912457, '2007-11-02' );  
+
+### Insertar varios registross
+> En algunos casos vamos a necesitar insertar varios registros
+> No es necesario utilizar un único **INSERT** por cada uno de los registros a insertar
+
+    INSERT INTO personas  
+        ( apellido, nombre, dni, alta )  
+      VALUES  
+        ( 'Page', 'Jimmy', 18543219, '1944-01-09' ),
+        ( 'Plant', 'Robert', 18543220, '1948-08-20' ),
+        ( 'Bonham', 'Bonzo', 18543221, '1948-05-31' ),
+        ( 'Jones', 'John', 18543222, '1946-01-03' );
+
+    INSERT INTO personas   
+      VALUES  
+        ( DEFAULT, 'Page', 'Jimmy', 18543219, '1944-01-09' ),
+        ( DEFAULT, 'Plant', 'Robert', 18543220, '1948-08-20' ),
+        ( DEFAULT, 'Bonham', 'Bonzo', 18543221, '1948-05-31' ),
+        ( DEFAULT, 'Jones', 'John', 18543222, '1946-01-03' );
