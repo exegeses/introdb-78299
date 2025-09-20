@@ -57,6 +57,9 @@
       VALUES  
         ( DEFAULT, 'Álvarez', 'Fernando', 32912457, '2007-11-02' );  
 
+> Nota: en esta sintaxis debemos mencionar todos y cada uno de los valores que corresponden a las columnas de la tabla. Si la tabla tiene cinco columnas debo mencionar cinco valores
+
+
 ### Insertar varios registross
 > En algunos casos vamos a necesitar insertar varios registros
 > No es necesario utilizar un único **INSERT** por cada uno de los registros a insertar

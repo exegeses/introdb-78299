@@ -48,5 +48,24 @@
       FROM productos;
 
 ### orden de resultados
-> para ordenar los resultados según una columna en particular tenemos el modificador **ORDER BY**
+> Para ordenar los resultados según una columna en particular tenemos el modificador **ORDER BY**
 
+    SELECT * FROM marcas  
+      ORDER BY idMarca;  
+
+    SELECT producto, precio  
+      FROM productos  
+      ORDER BY precio;  
+
+> si luego del modificador **ORDER BY** 
+> utilizamos la palabra **DESC** vamos a generar un orden descendente
+
+    SELECT producto, precio  
+      FROM productos  
+      ORDER BY precio DESC;  
+
+> Podemos usar dos creiterios de orden
+
+    SELECT producto, precio  
+      FROM productos  
+      ORDER BY idMarca, precio;  

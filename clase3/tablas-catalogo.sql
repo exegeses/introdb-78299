@@ -22,7 +22,7 @@ create table productos
     descripcion varchar(100) not null,
     imagen varchar(45) not null,
     activo boolean not null,
-    -- relaciones
+    -- relaciones.md
     foreign key (idMarca) references marcas (idMarca),
     foreign key (idCategoria) references categorias (idCategoria)
 );
