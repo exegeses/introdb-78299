@@ -37,3 +37,37 @@ todas las tablas necesarias separadas por comas
 
 
 ## Join
+
+> Para lograr esta técnica vamos a mencionar en el listado de tablas (después del **FROM**) únicamente la prabla principal
+> luego vamos a utilizar la palabra **JOIN** para mencionar la tabla secundaria
+> Y luego después de la palabra **ON** igualamos la clave foránea de la tabla principal con la clave primaria de la tabla secundaria
+> (podríamos decir que cada **JOIN** tiene un **ON**)
+
+    SELECT colTabla1, colTabla1, colTabla2
+      FROM tabla1  
+      JOIN tabla2  
+        ON tabla1.fk = tabla2.pk; 
+
+    SELECT colTabla1, colTabla1, colTabla2, colTabla3   
+      FROM tabla1  
+      JOIN tabla2  
+        ON tabla1.fk = tabla2.pk
+      JOIN tabla3  
+        ON tabla1.fk = tabla3.pk;
+
+    SELECT producto, precio, marca  
+      FROM productos  
+      JOIN marcas  
+        ON productos.idMarca = marcas.idMarca;  
+
+    SELECT producto, precio, categoria  
+      FROM productos  
+      JOIN categorias  
+        ON productos.idCategoria = categorias.idCategoria;
+
+    SELECT producto, precio, marca, categoria  
+      FROM productos  
+      JOIN marcas  
+        ON productos.idMarca = marcas.idMarca  
+      JOIN categorias  
+        ON productos.idCategoria = categorias.idCategoria;  

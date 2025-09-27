@@ -1,0 +1,33 @@
+producto,precio,"precio * 1.05",marca,categoria
+8,109.00,114.4500,Logitech,Accesorios
+24,119.00,124.9500,Sony,Accesorios
+14,119.00,124.9500,Samsung,Almacenamiento
+30,89.99,94.4895,Samsung,Almacenamiento
+16,399.00,418.9500,Sony,Audio
+32,229.00,240.4500,LG,Audio
+15,149.00,156.4500,Logitech,Cámaras
+31,699.00,733.9500,Sony,Cámaras
+12,329.99,346.4895,Samsung,"Componentes de PC"
+28,149.00,156.4500,Asus,"Componentes de PC"
+6,199.00,208.9500,Philips,Domótica
+22,24.99,26.2395,Xiaomi,Domótica
+5,999.99,1049.9895,Samsung,Electrodomésticos
+21,849.99,892.4895,Bosch,Electrodomésticos
+11,599.00,628.9500,Sony,Gaming
+27,69.00,72.4500,Microsoft,Gaming
+13,29.99,31.4895,TP-Link,"Hogar Inteligente"
+29,54.99,57.7395,Xiaomi,"Hogar Inteligente"
+1,749.99,787.4895,Lenovo,Laptops
+17,829.00,870.4500,HP,Laptops
+9,129.00,135.4500,Asus,Periféricos
+25,89.99,94.4895,Asus,Periféricos
+10,89.99,94.4895,TP-Link,Redes
+26,59.99,62.9895,TP-Link,Redes
+2,299.99,314.9895,Xiaomi,Smartphones
+18,899.99,944.9895,Samsung,Smartphones
+7,79.99,83.9895,Microsoft,Software
+23,129.00,135.4500,Microsoft,Software
+4,499.99,524.9895,Apple,Tablets
+20,149.99,157.4895,Amazon,Tablets
+3,1399.00,1468.9500,LG,Televisores
+19,1799.00,1888.9500,Sony,Televisores
